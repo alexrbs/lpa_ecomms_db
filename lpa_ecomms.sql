@@ -130,6 +130,8 @@ CREATE TABLE IF NOT EXISTS `lpa_users` (
   `lpa_user_password` varchar(50) NOT NULL,
   `lpa_user_firstname` varchar(50) NOT NULL,
   `lpa_user_lastname` varchar(50) NOT NULL,
+  `lpa_user_address` varchar(50) NOT NULL,
+  `lpa_user_phone` varchar(50) NOT NULL,
   `lpa_user_group` varchar(50) NOT NULL,
   `lpa_user_status` char(1) NOT NULL,
   PRIMARY KEY (`lpa_user_ID`)
